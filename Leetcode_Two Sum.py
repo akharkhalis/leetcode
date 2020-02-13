@@ -6,3 +6,5 @@ def twoSum(nums, target):
             h[num] = i
         else:
             return [h[n], i]
+
+twoSum([1,2,3,4,5,6,7,8], 8)
